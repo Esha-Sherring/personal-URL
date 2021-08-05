@@ -11355,6 +11355,15 @@ html {
   font-family: "Assistant", sans-serif;
   overflow-x: hidden !important;
 }
+a#gitRepo {
+  size: 5rem;
+  align-self: center;
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  line-height: 50%;
+  font-size: 150%;
+}
 
 .grid {
   width: 100%;
@@ -11402,12 +11411,10 @@ html {
 
 .cardcontainer:hover {
   border: 1px solid rgba(255, 255, 255, 1);
-  background: dodgerblue;
-  color: white;
+  background: #b3ecff;
+
   transition: all 0.4s ease-in-out;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 74px 75px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
   transform: translateY(-15px);
 }
 
@@ -11415,9 +11422,7 @@ html {
   width: 100%;
   border-radius: 15px;
   border: 1px solid rgba(0, 0, 0, 0.4);
-  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
-    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
   margin-bottom: 15px;
   border: 1px solid rgba(255, 255, 255, 1);
   filter: grayscale(100%);
@@ -11425,14 +11430,16 @@ html {
 }
 
 .cardcontainer:hover img {
-  filter: grayscale(0%);
   border: 1px solid rgba(255, 255, 255, 0);
   transition: all 0.4s ease-in-out;
 }
 
 .cardcontainer h1 {
-  line-height: 50%;
+  line-height: 100%;
   font-size: 150%;
+  align-self: center;
+  font-weight: bold;
+  color: rgb(197, 78, 94);
 }
 
 .bottomline {
@@ -11469,7 +11476,7 @@ html {
 }
 
 .cardbutton {
-  background: dodgerblue;
+  background: #ff6666;
   color: white;
   text-decoration: none;
   font-size: 14pt;
