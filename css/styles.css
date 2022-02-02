@@ -11422,7 +11422,7 @@ a#gitRepo {
   width: 100%;
   border-radius: 15px;
   border: 1px solid rgba(0, 0, 0, 0.4);
-
+  filter: none !important;
   margin-bottom: 15px;
   border: 1px solid rgba(255, 255, 255, 1);
 
