@@ -68,6 +68,7 @@ body {
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  width: 100%;
 }
 
 hr {
@@ -495,6 +496,7 @@ progress {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  justify-content: center !important;
 }
 
 .display-1 {
@@ -11235,6 +11237,7 @@ h1,
 p.lead {
   font-size: 1.15rem;
   font-weight: 400;
+  justify-content: center !important;
 }
 
 .subheading {
@@ -11324,6 +11327,7 @@ p.lead {
 }
 
 section.resume-section {
+justify-content: center !important;
   display: flex;
   align-items: center;
   padding-left: 1rem;
@@ -11333,6 +11337,7 @@ section.resume-section {
   max-width: 75rem;
 }
 section.resume-section .resume-section-content {
+  justify-content: center !important;
   width: 100%;
 }
 
@@ -11354,6 +11359,7 @@ body,
 html {
   font-family: "Assistant", sans-serif;
   overflow-x: hidden !important;
+  justify-content: center !important;
 }
 a#gitRepo {
   size: 5rem;
